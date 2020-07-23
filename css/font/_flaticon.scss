@@ -1,0 +1,74 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/07/2020 08:13
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-car-service:before { content: "\f100"; }
+.flaticon-get-money:before { content: "\f101"; }
+.flaticon-work-1:before { content: "\f102"; }
+.flaticon-worker:before { content: "\f103"; }
+.flaticon-patient:before { content: "\f104"; }
+.flaticon-car-wash:before { content: "\f105"; }
+.flaticon-car:before { content: "\f106"; }
+.flaticon-wipe:before { content: "\f107"; }
+.flaticon-wiper:before { content: "\f108"; }
+.flaticon-wash:before { content: "\f109"; }
+.flaticon-car-service-1:before { content: "\f10a"; }
+.flaticon-car-service-2:before { content: "\f10b"; }
+.flaticon-car-service-3:before { content: "\f10c"; }
+.flaticon-spot:before { content: "\f10d"; }
+.flaticon-hand:before { content: "\f10e"; }
+.flaticon-liquid-soap:before { content: "\f10f"; }
+.flaticon-hand-washing:before { content: "\f110"; }
+    
+    $font-Flaticon-car-service: "\f100";
+    $font-Flaticon-get-money: "\f101";
+    $font-Flaticon-work-1: "\f102";
+    $font-Flaticon-worker: "\f103";
+    $font-Flaticon-patient: "\f104";
+    $font-Flaticon-car-wash: "\f105";
+    $font-Flaticon-car: "\f106";
+    $font-Flaticon-wipe: "\f107";
+    $font-Flaticon-wiper: "\f108";
+    $font-Flaticon-wash: "\f109";
+    $font-Flaticon-car-service-1: "\f10a";
+    $font-Flaticon-car-service-2: "\f10b";
+    $font-Flaticon-car-service-3: "\f10c";
+    $font-Flaticon-spot: "\f10d";
+    $font-Flaticon-hand: "\f10e";
+    $font-Flaticon-liquid-soap: "\f10f";
+    $font-Flaticon-hand-washing: "\f110";
