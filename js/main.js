@@ -99,7 +99,7 @@ $(document).ready(function(){
 		$(this).addClass('active');
 	});
     
-    $(".foo").bind("click", function() {
+    $("#foo").bind("click", function() {
         
     document.getElementById("message").value += "\n" + 
         "name = " + document.getElementById("name").value + "\n" + 
