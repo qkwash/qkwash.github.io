@@ -106,7 +106,6 @@ $(document).ready(function(){
         "date = " + document.getElementById("date").value + "\n" + 
         "time = " + document.getElementById("time").value + "\n" +
         "service = " + document.getElementById("service").value + "\n" ;
-    alert(document.getElementById("message").value);
     });
 	
 	carousel();
