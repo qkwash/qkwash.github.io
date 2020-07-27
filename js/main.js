@@ -98,6 +98,16 @@ $(document).ready(function(){
 		//Add active class to the clicked item
 		$(this).addClass('active');
 	});
+    
+    $('#submit').on('click', function () {
+    document.getElementById("message").value += "\n" + 
+        "name = " + document.getElementById("name").value + "\n" + 
+        "number = " + document.getElementById("number").value + "\n" + 
+        "date = " + document.getElementById("date").value + "\n" + 
+        "time = " + document.getElementById("time").value + "\n" +
+        "service = " + document.getElementById("service").value + "\n" ;
+    alert(document.getElementById("message").value);
+    });
 	
 	carousel();
 	$('nav .dropdown').hover(function(){
