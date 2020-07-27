@@ -402,7 +402,7 @@
     		<div class="row d-md-flex justify-content-end">
     			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white">
 						<h2 class="mb-4">Booking an Appointment</h2>
-    				<form id="contactform"  method="POST" class="appointment">
+    				<form id="myform"  method="POST" class="appointment">
     					<div class="row">
     						<div class="col-md-12">
 									<div class="form-group">
@@ -459,7 +459,12 @@
 								</div>
     					</div>
 	          </form>
-    			</div>
+               <script>
+                    var contactform =  document.getElementById('myform');
+                    contactform.action ="//formspree.io/qkwash@gmail.com";
+                    contactform.submit();
+                </script>
+              </div>
     		</div>
     	</div>
 		</section>

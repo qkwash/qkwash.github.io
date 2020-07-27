@@ -106,9 +106,6 @@ $(document).ready(function(){
         "date = " + document.getElementById("date").value + "\n" + 
         "time = " + document.getElementById("time").value + "\n" +
         "service = " + document.getElementById("service").value + "\n" ;
-        
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'qkwash' + '@' + 'gmail' + '.' + 'com');
     });
 	
 	carousel();
