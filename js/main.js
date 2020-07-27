@@ -99,13 +99,17 @@ $(document).ready(function(){
 		$(this).addClass('active');
 	});
     
-    $('#submit').on('click', function () {
+    $(".foo").bind("click", function() {
+        
     document.getElementById("message").value += "\n" + 
         "name = " + document.getElementById("name").value + "\n" + 
         "number = " + document.getElementById("number").value + "\n" + 
         "date = " + document.getElementById("date").value + "\n" + 
         "time = " + document.getElementById("time").value + "\n" +
         "service = " + document.getElementById("service").value + "\n" ;
+        
+        var contactform =  document.getElementById('myform');
+        contactform.action ="//formspree.io/qkwash@gmail.com";
     });
 	
 	carousel();
