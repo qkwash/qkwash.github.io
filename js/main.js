@@ -1,9 +1,18 @@
 $(document).ready(function(){
 
 	$("#myModal").modal('show');
+	document.getElementById('date').value = today();
+    $('#date').val(today());
 
 });
 
+function today() {
+        let d = new Date();
+        let currDate = d.getDate();
+        let currMonth = d.getMonth()+1;
+        let currYear = d.getFullYear();
+        return currYear + "-" + ((currMonth<10) ? '0'+currMonth : currMonth )+ "-" + ((currDate<10) ? '0'+currDate : currDate );
+    }
 (function($) {
 
 	"use strict";
@@ -236,7 +245,11 @@ $(document).ready(function(){
 	  'autoclose': true
 	});
 
-	$('.appointment_time').timepicker();
+	$('.appointment_time').timepicker({
+	'minTime': '07:00am',
+	'maxTime': '06:00pm',
+    'step': '60'
+	});
 
 })(jQuery);
 

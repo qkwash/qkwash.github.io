@@ -428,7 +428,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-			              <input name="name" id="number" type="text" class="form-control" placeholder="Your Number">
+			              <input name="name" id="number" type="text" maxlength="10" pattern="\d{10}" class="form-control" placeholder="Your Number">
 			            </div>
 								</div>
 								<div class="col-md-6">
@@ -443,13 +443,13 @@
 									<div class="form-group">
 			    					<div class="input-wrap">
 			            		<div class="icon"><span class="fa fa-clock-o"></span></div>
-			            		<input type="text" id="time" class="form-control appointment_time" placeholder="Time">
+			            		<input type="text" id="time" class="form-control appointment_time" placeholder="Time" min="07:00" max="19:00">
 		            		</div>
 			    				</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-			              <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+			              <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Enter Car Details here. We will contact you to confirm booking"></textarea>
 			            </div>
 								</div>
 								<div class="col-md-12">
@@ -525,11 +525,11 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Full Wash</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Body Wash</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Disinfection</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Interior cleaning</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Engine cleaning</a></li>
+                <li><a href="#services" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Full Wash</a></li>
+                <li><a href="#services" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Body Wash</a></li>
+                <li><a href="#services" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Disinfection</a></li>
+                <li><a href="#services" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Interior cleaning</a></li>
+                <li><a href="#services" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Engine cleaning</a></li>
               </ul>
             </div>
           </div>
@@ -539,8 +539,8 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon fa fa-map-marker"></span><span class="text">QkWash</span></li>
-	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 9746 123 321</span></a></li>
-	                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">qkwash@gmail.com</span></a></li>
+	                <li><a href="tel:+919746123321"><span class="icon fa fa-phone"></span><span class="text">+91 9746 123 321</span></a></li>
+	                <li><a href="#contact"><span class="icon fa fa-paper-plane"></span><span class="text">qkwash@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
